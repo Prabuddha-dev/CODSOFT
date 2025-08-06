@@ -6,9 +6,13 @@ CODSOFT Java Internship Projects: 1️⃣ Number Game (guess &amp; win) 2️⃣ 
 📌 Projects Overview
 
 1️⃣ Number Guessing Game
+
 🎯 *Guess a random number (1-100) with limited attempts*
+
 ✔ Random number generation
+
 ✔ Score tracking & hints
+
 ✔ Play multiple rounds
 
 2️⃣ Student Grade Calculator
