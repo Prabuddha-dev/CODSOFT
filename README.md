@@ -152,6 +152,7 @@ java ATMInterface
 - **Object-Oriented Design:** Structured code for maintainability and scalability
 - **User Experience Design:** Developed intuitive and visually appealing interfaces
 - **Exception Handling:** Managed errors and edge cases gracefully
+- **Version Control: Gained proficiency in using Git and GitHub for project management.
 
 ---
 
