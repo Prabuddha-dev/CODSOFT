@@ -79,28 +79,69 @@ A fully functional ATM simulator with a modern graphical interface.
 - Any Java IDE (IntelliJ, Eclipse, NetBeans)
 
 ### Installation & Run
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/CODSOFT.git
-   ```
-2. **Navigate to a project directory:**
-   ```bash
-   cd CODSOFT/ATM-Interface
-   ```
-3. **Compile and run the Java file:**
-   ```bash
-   javac *.java
-   java Main
-   ```
 
-### Adding Screenshots to Your Repository
-1. Upload your PNG files to your repository in an `images/` folder
-2. Use the following format to display them in your README:
-   ```markdown
-   ![Alt Text](https://github.com/your-username/your-repo/blob/main/images/filename.png)
-   ```
-3. Alternatively, you can use image hosting services like ImgBB or Imgur
-4. For the best presentation, organize screenshots in tables as shown above
+
+# 🚀 How to Run the Projects
+
+## Prerequisites
+- **Java Development Kit (JDK) 8 or higher** installed on your system
+- Basic knowledge of command line operations
+- (Optional) An IDE like IntelliJ IDEA, Eclipse, or VS Code for easier execution
+
+## 📥 Installation Steps
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/CODSOFT.git
+cd CODSOFT
+```
+
+### 2. Verify Java Installation
+```bash
+java -version
+javac -version
+```
+You should see version information confirming Java is properly installed.
+
+## 🎮 Running the Number Guessing Game
+
+### Method 1: Command Line
+```bash
+cd Number-Game
+javac NumberGame.java
+java NumberGame
+```
+
+### Method 2: Using an IDE
+1. Open the project in your IDE
+2. Locate the `NumberGame.java` file
+3. Run the file directly from the IDE
+
+## 📊 Running the Student Grade Calculator
+
+### Method 1: Command Line
+```bash
+cd Student Grade Calculator
+javac GradeCalculator.java
+java GradeCalculator
+```
+
+### Method 2: Using an IDE
+1. Open the project in your IDE
+2. Locate the `GradeCalculator.java` file
+3. Run the file directly from the IDE
+
+## 🏦 Running the ATM Interface
+
+### Method 1: Command Line
+```bash
+cd ATM Interface
+javac ATMInterface.java BankAccount.java StylishATMGUI.java
+java ATMInterface
+```
+
+
+
 
 ---
 
@@ -137,17 +178,3 @@ Let's talk about code, opportunities, or just to connect!
 
 ---
 
-## How to Add These Screenshots to Your README
-
-To add your actual project screenshots to the README:
-
-1. **Upload your images** to your repository in an `images/` folder
-2. **Replace the placeholder URLs** with your actual image URLs
-3. **Use this format** for each image:
-   ```markdown
-   ![Description](https://github.com/your-username/your-repo/blob/main/images/filename.png)
-   ```
-4. **Organize them in tables** as shown above for a clean presentation
-5. **Consider using image hosting services** like ImgBB if you want to keep your repository lightweight
-
-The screenshots you provided show excellent GUI implementations that will make your README visually appealing and demonstrate your programming skills effectively!
