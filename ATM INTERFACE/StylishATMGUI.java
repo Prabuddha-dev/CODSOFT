@@ -21,7 +21,6 @@ public class StylishATMGUI extends JFrame {
 
     private TransactionType currentTransaction;
 
-    // Color scheme
     private final Color PRIMARY_COLOR = new Color(41, 128, 185);
     private final Color SECONDARY_COLOR = new Color(52, 152, 219);
     private final Color ACCENT_COLOR = new Color(46, 204, 113);
@@ -48,7 +47,6 @@ public class StylishATMGUI extends JFrame {
         setUndecorated(true);
         setShape(new RoundRectangle2D.Double(0, 0, getWidth(), getHeight(), 20, 20));
 
-        // Main panel with gradient background
         mainPanel = new JPanel(new BorderLayout(15, 15)) {
             @Override
             protected void paintComponent(Graphics g) {
@@ -63,10 +61,8 @@ public class StylishATMGUI extends JFrame {
         };
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
-        // Create header panel
         createHeaderPanel();
 
-        // Create display area with glass effect
         displayPane = new JTextPane();
         displayPane.setEditable(false);
         displayPane.setContentType("text/html");
@@ -80,13 +76,10 @@ public class StylishATMGUI extends JFrame {
         scrollPane.getViewport().setOpaque(false);
         scrollPane.setBorder(null);
 
-        // Create input panel
         createInputPanel();
 
-        // Create button panel
         createButtonPanel();
 
-        // Add components to main panel
         mainPanel.add(headerPanel, BorderLayout.NORTH);
         mainPanel.add(scrollPane, BorderLayout.CENTER);
         mainPanel.add(inputPanel, BorderLayout.SOUTH);
@@ -94,10 +87,8 @@ public class StylishATMGUI extends JFrame {
 
         add(mainPanel);
 
-        // Add action listeners
         setupActionListeners();
 
-        // Add mouse listener for dragging the window
         addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
                 getComponentAt(e.getPoint()).setLocation(e.getPoint());
@@ -120,7 +111,6 @@ public class StylishATMGUI extends JFrame {
         titleLabel.setForeground(Color.WHITE);
         titleLabel.setBorder(new EmptyBorder(0, 0, 10, 0));
 
-        // Close button
         JButton closeBtn = new JButton("×");
         closeBtn.setFont(new Font("Arial", Font.BOLD, 18));
         closeBtn.setContentAreaFilled(false);
@@ -322,14 +312,12 @@ public class StylishATMGUI extends JFrame {
 
         displayPane.setText(htmlMessage);
 
-        // Disable all buttons
         checkBalanceBtn.setEnabled(false);
         depositBtn.setEnabled(false);
         withdrawBtn.setEnabled(false);
         confirmBtn.setEnabled(false);
         cancelBtn.setEnabled(false);
 
-        // Close after delay
         Timer timer = new Timer(3000, e -> System.exit(0));
         timer.setRepeats(false);
         timer.start();
@@ -393,7 +381,6 @@ public class StylishATMGUI extends JFrame {
         successTimer.start();
     }
 
-    // Custom rounded border class
     class RoundBorder extends AbstractBorder {
         private int radius;
         private Color color;
