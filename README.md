@@ -62,11 +62,11 @@ A fully functional ATM simulator with a modern graphical interface.
   
 | Welcome Screen | Balance Check | Deposit |
 |----------------|---------------|---------|
-| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE.png" width="200" />  | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/82a5861ae03190143f7af1f9a230d96f609131f4/Image/ATM%20INTERFACE-B.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE%20D.png" width="200" /> |
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE.png" width="200" />  | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE-B.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20D.png" width="200" /> |
 
 | Withdrawal | Success Message | Exit Screen |
 |------------|-----------------|-------------|
-| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE.png" width="200" /> |
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20E.png" width="200" /> |
 
 </div>
 
