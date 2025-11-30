@@ -1,251 +1,181 @@
-# Excel Analytics - Interactive Data Visualization Platform
+# 💻 CODSOFT Java Development Internship
 
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Dashboard.png" width="800" />
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Swing](https://img.shields.io/badge/Java_Swing-6DB33F?style=for-the-badge&logo=java&logoColor=white)
 
-## 📊 Overview
+*A collection of Java GUI projects completed during my enriching internship at CODSOFT, showcasing core programming concepts with modern user interfaces.*
 
-**Excel Analytics** is a powerful web-based platform that transforms your Excel data into beautiful, interactive visualizations. Upload your spreadsheets, configure charts with ease, and gain valuable insights from your data - all in one intuitive interface.
+[📁 Projects](#-projects) • [🎮 Screenshots](#-screenshots) • [🚀 Getting Started](#-getting-started) • [🧠 What I Learned](#-what-i-learned) • [📬 Connect](#-connect)
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-green?style=for-the-badge)](https://yourapp.com)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+---
 
-## ✨ Key Features
+## 📁 Projects
 
-### 📈 Smart Data Visualization
-- **Multiple Chart Types**: Bar charts, line graphs, pie charts, and more
-- **Drag & Drop Interface**: Simple column selection for X and Y axes
-- **Real-time Preview**: See your charts render instantly
-- **Excel Compatibility**: Supports .xlsx and .xls formats
+### 🎯 1. Number Guessing Game
+<img src="https://img.shields.io/badge/Concept-Random--green" /> <img src="https://img.shields.io/badge/Concept-GUI--yellow" /> <img src="https://img.shields.io/badge/Concept-Multi--round--blue" />
 
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Analytics.png" width="800" />
+A graphical number guessing game with multiple difficulty levels and round-based scoring system.
+- **Features:** Three difficulty modes, hint system, score tracking, multiple rounds
+- **Tech:** Java Swing, OOP, game logic, event handling
 
-### 🔐 Secure User Management
-- **Role-based Access**: Admin and User roles with different permissions
-- **Secure Authentication**: Protected login system
-- **Personal Dashboard**: Individual analytics workspace for each user
+### 📊 2. Student Grade Calculator
+<img src="https://img.shields.io/badge/Concept-GUI--green" /> <img src="https://img.shields.io/badge/Concept-Calculations--yellow" /> <img src="https://img.shields.io/badge/Concept-Validation--blue" />
 
-### 📁 File Management
-- **Easy Upload**: Drag & drop or click to browse
-- **File History**: Track all your uploaded files and analyses
-- **Success Metrics**: Monitor analysis completion rates and performance
+A graphical application to calculate student grades with a clean, modern interface.
+- **Features:** Dynamic subject addition, grade calculation, result display
+- **Tech:** Java Swing, mathematical operations, UI design
 
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Upload.png" width="800" />
+### 🏦 3. ATM Interface System
+<img src="https://img.shields.io/badge/Concept-OOP--green" /> <img src="https://img.shields.io/badge/Concept-Banking--yellow" /> <img src="https://img.shields.io/badge/Concept-Transactions--blue" />
 
-### 🔍 Analysis History
-- **Complete History**: Track all your previous analyses
-- **Quick Access**: Easily revisit past visualizations
-- **Progress Monitoring**: See your analysis journey
+A fully functional ATM simulator with a modern graphical interface.
+- **Features:** Balance checking, deposits, withdrawals, transaction confirmation
+- **Tech:** Java Swing, financial operations, user authentication simulation
 
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/History.png" width="800" />
+---
 
-### 👨‍💼 Admin Controls
-- **User Management**: Comprehensive user administration
-- **System Statistics**: Platform usage analytics
-- **Role Management**: Control user permissions and access
+## 🎮 Screenshots
 
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Admin%20user.png" width="800" />
+### Number Guessing Game
+<div align="center">
+  
+| Game Start | Correct Guess | Hint System |
+|------------|---------------|-------------|
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20C.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20%20L.png" width="200" /> |
 
-## 🚀 Quick Start
+| Difficulty Selection | Low Hint | High Hint |
+|----------------------|----------|-----------|
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20%20D.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20%20L.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Number%20Game%20%20H.png" width="200" /> |
 
-### 1. Login to Your Account
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Login%20sign%20up.png" width="400" />
-- Secure authentication system
-- Role-based access control
-- Personalized dashboard
+</div>
 
-### 2. Upload Your Excel File
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Upload.png" width="400" />
-- Navigate to the Upload section
-- Drag & drop your Excel file (.xlsx or .xls)
-- Files up to 10MB supported
+### Student Grade Calculator
+<div align="center">
+  
+<img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/Student%20Grade%20Calculator%20.png" width="400" />
 
-### 3. Configure Your Chart
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Analytics.png" width="400" />
-- Go to Analytics tab
-- Select your uploaded file
-- Choose X and Y axis columns
-- Pick your preferred chart type
+</div>
 
-### 4. Generate & Analyze
-<img src="https://raw.githubusercontent.com/Prabuddha-dev/excel-analytics-platform/main/image/Dashboard.png" width="400" />
-- View generated charts instantly
-- Access analysis history
-- Download or share insights
+### ATM Interface
+<div align="center">
+  
+| Welcome Screen | Balance Check | Deposit |
+|----------------|---------------|---------|
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE.png" width="200" />  | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE-B.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20D.png" width="200" /> |
 
-## 🛠️ Technology Stack
+| Withdrawal | Success Message | Exit Screen |
+|------------|-----------------|-------------|
+| <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/216f81ad2104639b27b5affd569cc15a7d6068b5/Image/ATM%20INTERFACE%20W.png" width="200" /> | <img src="https://github.com/Prabuddha-dev/CODSOFT/blob/358a1fd2e8667755d08d86eba8b55f9181e6b7fa/Image/ATM%20INTERFACE%20E.png" width="200" /> |
 
-- **Frontend**: Modern React.js with responsive design
-- **Charts**: Chart.js / D3.js for beautiful visualizations
-- **File Processing**: SheetJS for Excel file parsing
-- **Authentication**: JWT-based secure login system
-- **Storage**: Cloud-based file storage solution
-- **UI Framework**: Tailwind CSS for modern design
+</div>
 
-## 📋 Project Structure
+---
 
-```
-excel-analytics-platform/
-├── src/
-│   ├── components/
-│   │   ├── Dashboard/
-│   │   ├── Upload/
-│   │   ├── Analytics/
-│   │   ├── History/
-│   │   └── Admin/
-│   ├── utils/
-│   │   ├── fileParser.js
-│   │   └── chartGenerator.js
-│   ├── hooks/
-│   │   ├── useAuth.js
-│   │   └── useCharts.js
-│   └── styles/
-├── public/
-├── image/
-│   ├── Dashboard.png
-│   ├── Analytics.png
-│   ├── Upload.png
-│   ├── History.png
-│   ├── Admin user.png
-│   └── Login sign up.png
-└── docs/
-```
-
-## 🎯 Use Cases
-
-### 🏢 Business Intelligence
-- Sales trend analysis
-- Financial reporting
-- Performance metrics tracking
-- Market research data visualization
-
-### 🎓 Academic Research
-- Data visualization for papers
-- Statistical analysis
-- Research data presentation
-- Experimental results display
-
-### 👥 Team Collaboration
-- Shared analytics dashboards
-- Team performance metrics
-- Project progress tracking
-- Collaborative data analysis
-
-### 💼 Financial Analysis
-- Budget tracking
-- Expense analysis
-- Revenue forecasting
-- Financial reporting
-
-## 🔧 Installation
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (version 14 or higher)
-- npm or yarn package manager
+- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (IntelliJ, Eclipse, NetBeans)
 
-### Setup Instructions
+### Installation & Run
 
+
+# 🚀 How to Run the Projects
+
+## Prerequisites
+- **Java Development Kit (JDK) 8 or higher** installed on your system
+- Basic knowledge of command line operations
+- (Optional) An IDE like IntelliJ IDEA, Eclipse, or VS Code for easier execution
+
+## 📥 Installation Steps
+
+### 1. Clone the Repository
 ```bash
-# Clone the repository
-git clone https://github.com/Prabuddha-dev/excel-analytics-platform.git
-
-# Navigate to project directory
-cd excel-analytics-platform
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# Build for production
-npm run build
+git clone https://github.com/YOUR-USERNAME/CODSOFT.git
+cd CODSOFT
 ```
 
-### Environment Configuration
+### 2. Verify Java Installation
+```bash
+java -version
+javac -version
+```
+You should see version information confirming Java is properly installed.
 
-Create a `.env` file in the root directory:
+## 🎮 Running the Number Guessing Game
 
-```env
-REACT_APP_API_URL=your_api_url
-REACT_APP_UPLOAD_SIZE_LIMIT=10485760
-REACT_APP_SUPPORTED_FORMATS=.xlsx,.xls
+### Method 1: Command Line
+```bash
+cd Number-Game
+javac NumberGame.java
+java NumberGame
 ```
 
-## 📊 Dashboard Metrics
+### Method 2: Using an IDE
+1. Open the project in your IDE
+2. Locate the `NumberGame.java` file
+3. Run the file directly from the IDE
 
-The platform provides comprehensive analytics at a glance:
+## 📊 Running the Student Grade Calculator
 
-- **Uploaded Files**: Track all your data imports
-- **Analysis Completed**: Monitor your processing history
-- **Success Rate**: Ensure reliable data processing
-- **Quick Actions**: Fast access to common tasks
+### Method 1: Command Line
+```bash
+cd Student Grade Calculator
+javac GradeCalculator.java
+java GradeCalculator
+```
 
-## 🔒 Security & Privacy
+### Method 2: Using an IDE
+1. Open the project in your IDE
+2. Locate the `GradeCalculator.java` file
+3. Run the file directly from the IDE
 
-- **Secure File Handling**: All uploads are processed securely
-- **User Isolation**: Data separation between users
-- **Admin Controls**: Comprehensive user management
-- **No Data Retention**: Optional automatic file deletion
-- **Encrypted Storage**: Secure data storage solutions
-- **Access Logs**: Comprehensive activity tracking
+## 🏦 Running the ATM Interface
 
-## 🎨 Supported Chart Types
-
-- **Bar Charts**: Comparative analysis
-- **Line Charts**: Trend visualization
-- **Pie Charts**: Proportional data
-- **Scatter Plots**: Correlation analysis
-- **Area Charts**: Cumulative data
-- **Histograms**: Distribution analysis
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Process
-
-1. **Fork the project**
-2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Code Standards
-- Follow ESLint configuration
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation accordingly
+### Method 1: Command Line
+```bash
+cd ATM Interface
+javac ATMInterface.java BankAccount.java StylishATMGUI.java
+java ATMInterface
+```
 
 
-## 📞 Support & Contact
 
-- 📧 **Email**: pragadhe49@gmail.com
 
-## 🙏 Acknowledgments
+---
 
-- Icons and design inspiration from modern UI frameworks
-- Chart libraries for beautiful data visualization
-- Open source community for continuous improvement
-- Contributors who help enhance the platform
+## 🧠 What I Learned
 
-## 🔄 Version History
+- **Java Swing GUI Development:** Created modern, interactive user interfaces
+- **Event-Driven Programming:** Implemented button actions and user interactions
+- **Object-Oriented Design:** Structured code for maintainability and scalability
+- **User Experience Design:** Developed intuitive and visually appealing interfaces
+- **Exception Handling:** Managed errors and edge cases gracefully
+- **Version Control: Gained proficiency in using Git and GitHub for project management.
 
-- **v1.0.0** (Current)
-  - Initial release with core features
-  - Excel file upload and processing
-  - Basic chart generation
-  - User authentication system
+---
+
+## 📬 Connect
+
+Let's talk about code, opportunities, or just to connect!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prabuddha-gadhe-bb52ba374)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pragadhe18@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prabuddha-dev)
 
 ---
 
 <div align="center">
 
-**Ready to transform your Excel data into actionable insights?** 
+### 🔗 Relevant Links
+[**CODSOFT**](www.codsoft.in) • [**Internship Info**](#)
 
-[Get Started Now](https://yourapp.com) • [View Demo](https://demo.yourapp.com) • [Report Bug](https://github.com/Prabuddha-dev/excel-analytics-platform/issues)
+**#CodSoft #Java #Swing #GUI #Internship #Programming #OOP #Developer #GitHub**
+
+*⭐ Star this repo if you found it helpful!*
+
+</div>
 
 ---
 
-*Excel Analytics - Making Data Visualization Accessible to Everyone* 📈✨
-
-</div>
